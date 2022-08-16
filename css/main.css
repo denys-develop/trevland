@@ -59,13 +59,15 @@ body {
 /* Header */
 .header {
     padding-top: 35px;
-    padding-bottom: 240px;
-    background-image: url(../img/header/header-bg-4.jpg);
+    padding-bottom: 80px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3)), url(../img/header/header-bg-4.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
     height: 100vh;
 }
+
+
 
 .nav {
     display: flex;
@@ -112,5 +114,26 @@ body {
 .nav__list-link:active {
    opacity: 0.7;
 }
+
+.header__content-block {
+    width: 610px;
+    margin-top: 100px;
+}
+
+.header__title {
+    font-family: 'Gelasio';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 1.2;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.header .desc {
+    width: 450px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
 
 
