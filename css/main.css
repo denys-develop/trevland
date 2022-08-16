@@ -30,6 +30,7 @@ body {
     line-height: 1.4;
     text-align: center;
     color: #000000;
+    margin-bottom: 20px;
 }
 
 .desc {
@@ -135,5 +136,71 @@ body {
     font-style: italic;
 }
 
+/* Popular Location*/
+.location {
+    padding: 70px 0;
+}
 
+.section__top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.location .desc {
+    margin-left: auto;
+    margin-right: auto;
+    width: 735px;
+}
+
+.location__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.location__row-item {
+    width: 360px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    transition: all .5s ease;
+}
+
+.location__row-item:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+.location__row-item:active {
+    transform: translateY(3px);
+}
+
+.location__row-item-imege {
+    width: 100%;
+}
+
+.location__row-item-text {
+    padding: 35px 27px 33px;
+    text-align: center;
+}
+
+.location__row-item-img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.location__row-item-title {
+    font-family: 'Gelasio';
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.location__row-item-desc {
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.6);
+}
 
