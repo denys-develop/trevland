@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Ribeye&family=Roboto:wght@400;500&display=swap');
+
+/* font-family: 'Gelasio', serif;
+font-family: 'Ribeye', cursive;
+font-family: 'Roboto', sans-serif; */
+
+/* Basic */
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    background: #FFFFFF;
+
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.title {
+    font-family: 'Gelasio';
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 1.4;
+    text-align: center;
+    color: #000000;
+}
+
+.desc {
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    background: #C9453B;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
