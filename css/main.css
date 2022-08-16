@@ -10,7 +10,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     background: #FFFFFF;
-
+    color: #000000;
 }
 
 .container {
@@ -49,10 +49,68 @@ body {
 }
 
 .btn:hover {
-    opacity: 0.8;
+    background: #ac2f26;
 }
 
 .btn:active {
     transform: translateY(2px);
 }
+
+/* Header */
+.header {
+    padding-top: 35px;
+    padding-bottom: 240px;
+    background-image: url(../img/header/header-bg-4.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Ribeye';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.nav__list-link {
+    font-weight: 500;
+    line-height: 1.5;
+    color: #FFFFFF;
+    transition: all .5s ease;
+
+    position: relative;
+}
+
+.nav__list-link--active::after, .nav__list-link:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+.nav__list-link:active {
+   opacity: 0.7;
+}
+
 
