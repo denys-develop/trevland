@@ -68,8 +68,6 @@ body {
     height: 100vh;
 }
 
-
-
 .nav {
     display: flex;
     align-items: center;
@@ -80,7 +78,6 @@ body {
     font-family: 'Ribeye';
     font-weight: 400;
     font-size: 24px;
-    line-height: 1.5;
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
@@ -448,4 +445,98 @@ body {
     width: 240px;
 }
 
+/* Footer */
+.footer {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background: rgba(38, 148, 153, 0.04);
+}
 
+.footer__row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.logo--black {
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.footer__contact-email p {
+    margin-bottom: 20px;
+}
+
+.footer__contact-email {
+    margin-bottom: 20px;
+}
+
+.footer__contact-mail {
+    color: #000000;
+}
+
+.footer__contact-icons {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.footer__menu-list {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 125px;
+}
+
+.footer__menu-list-nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.footer__menu-list-nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    color: #000000;
+    transition: all .5s ease;
+}
+
+.footer__menu-list-nav-link:hover {
+   color: #ac2f26;
+}
+
+.footer__form {
+    width: 333px;
+}
+
+.title__form {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    margin-bottom: 42px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+}
+
+.input__form {
+    display: block;
+    width: 200px;
+    padding: 12px 20px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.input__form:focus {
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.btn__form {
+    padding: 10px 32px;
+}
+
+/* End */
